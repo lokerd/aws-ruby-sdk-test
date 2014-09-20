@@ -23,6 +23,9 @@ ruby_block "Build Stack Dictionary" do
            hash = { :id => stack[:stack_id], :name => stack[:name], :vpc => stack[:vpc_id] }
            stackdictionary.push(hash)
         end
+        stackdictionary.each do |result|
+           puts "#{result[:id]} #{result[:name]} #{result[:vpc]}"
+        end
     end
     action :create
 end 

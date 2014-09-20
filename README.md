@@ -1,4 +1,4 @@
-harvard_example
+aws-sdk-ruby-test
 ===============
 
-Sample repository used to illustrate Opsworks template and attribute override
+Sample repository used to illustrate using the Ruby SDK from Opsworks Chef

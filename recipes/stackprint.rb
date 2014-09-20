@@ -1,4 +1,4 @@
-# Set private IP address
+# Demonstrate AWS SDK 
 require 'aws-sdk'
 
 gem_package "aws-sdk" do
@@ -29,7 +29,3 @@ ruby_block "Build Stack Dictionary" do
     end
     action :create
 end 
-
-stackdictionary.each do |result|
-    puts "#{result[:id]} #{result[:name]} #{result[:vpc]}"
-end

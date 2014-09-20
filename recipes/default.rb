@@ -1,1 +1,1 @@
-include_recipe 'template_override::setprivateip'
+include_recipe 'aws-ruby-sdk-test::stackprint'
